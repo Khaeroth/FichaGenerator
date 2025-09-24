@@ -1,6 +1,9 @@
 # 📌 FichaGenerator Bot
 
-Un bot de Discord hecho con [Pycord](https://docs.pycord.dev) que genera una **ficha personalizada** con tu información en formato de imagen. 🎨
+Un bot de Discord hecho con [Pycord](https://docs.pycord.dev) que genera una **ficha personalizada** con tu información en formato de imagen con estética de Stardew Valley. 🎨
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/b5fafd74-de01-4168-9f29-7498f98f9a44" />
+
 
 ## 🚀 Funcionalidades
 
