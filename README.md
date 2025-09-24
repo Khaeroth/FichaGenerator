@@ -58,7 +58,7 @@ y completa la información para generar tu tarjeta personalizada.
 * `requirements.txt` → librerías necesarias.
 * `.env` → tu token de Discord (necesitas crearlo y ponerlo en la carpeta para que pueda funcionar).
 * `img/` → imágenes usadas como fondo y marcos.
-* `fonts/` → fuentes usadas para el diseño.
+* `fonts/` → fuentes usadas para el diseño. Hay algunas adicionales por si quieres experimentar.
 
 ## 🌍 Deploy
 
