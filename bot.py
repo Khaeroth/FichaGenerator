@@ -66,7 +66,7 @@ async def ficha(ctx,
 
     # Cajita para las respuestas
     box_raw = Image.open("img/box-2.png").convert("RGBA")
-    box = box_raw.resize((380,20))
+    box = box_raw.resize((375,20))
         
     img.paste(tabla, (15,50), tabla)
     img.paste(frame, (70,85), frame)
@@ -87,19 +87,6 @@ async def ficha(ctx,
 
     # Titulo
     draw.text((380, 85), "FICHA", fill=(0, 0, 0), font=font_caps)
-
-    # Contar cuántos argumentos fueron pasados
-    '''
-    opciones = [nombre, cumpleaños, pais, ubicacion, estatura, gustos, disgustos, funfact, muslos]
-    llenos = [o for o in opciones if o not in (None, "")]
-    cantidad = len(llenos)
-    #print(cantidad, type(cantidad))
-
-    indice = []
-    for i in range(1, cantidad+1):
-        indice.append(i)
-    print(indice) #[1, 2, 3, 4, 5, 6, 7, 8, 9]
-    '''
 
     # Dibujar texto en el centro
         # X
@@ -263,4 +250,5 @@ async def ficha(ctx,
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 bot.run(TOKEN)
+
 
